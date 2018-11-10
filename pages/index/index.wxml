@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+   <view class="userinfo">
+      <image class="userinfo-avatar" src="{{appInfo.logoUrl}}"></image>
+      <text class="userinfo-nickname">{{appInfo.title}}</text>
+   </view>
+    <view class="usermotto">
+       <text class='motto'>{{motto}}</text>
+    </view>
+</view>

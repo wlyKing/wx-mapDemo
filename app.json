@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/location/location",
+    "pages/map/map",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "mapDemo",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color":"#ddd",
+    "selectColor":"#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/wechat.png",
+      "selectedIconPath": "images/wechatHL.png"
+    },{
+      "pagePath": "pages/map/map",
+      "text": "地图",
+      "iconPath": "images/map.png",
+      "selectedIconPath": "images/map_active.png"
+    },{
+      "pagePath": "pages/location/location",
+      "text": "导航",
+      "iconPath": "images/locate.png",
+      "selectedIconPath": "images/locateHL.png"
+    }]
+  }
+}
